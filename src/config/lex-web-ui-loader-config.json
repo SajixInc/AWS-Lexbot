@@ -15,8 +15,8 @@
   },
   "lex": {
     "botName": "VHLexBot1",
-    "initialText": "You can ask me for help ordering flowers. Just type \"Book A Cab\" or click on the mic and say it.",
-    "initialSpeechInstruction": "Say 'Book A Cab' to get started.",
+    "initialText": "You can ask me for help. Just type \"Hii\" or click on the mic and say it.",
+    "initialSpeechInstruction": "Say 'Hi' to get started.",
     "initialUtterance": "",
     "region": "ap-southeast-1",
     "retryOnLexPostTextTimeout": false,
@@ -27,27 +27,27 @@
   },
   "ui": {
     "parentOrigin": "http://localhost:8000",
-    "toolbarTitle": "Order",
+    "toolbarTitle": "Lifeeazy Chat Bot",
     "toolbarLogo": "",
-    "positiveFeedbackIntent": "Thumbs up",
-    "negativeFeedbackIntent": "Thumbs down",
+    "positiveFeedbackIntent": "",
+    "negativeFeedbackIntent": "",
     "helpIntent": "Help",
     "helpContent": {},
-    "enableLogin": false,
-    "enableSFX": false,
+    "enableLogin": true,
+    "enableSFX": true,
     "forceLogin": false,
     "AllowSuperDangerousHTMLInMessage": true,
     "shouldDisplayResponseCardTitle": false,
     "minButtonContent": "",
-    "hideInputFieldsForButtonResponse": false,
+    "hideInputFieldsForButtonResponse": true,
     "pushInitialTextOnRestart": false,
     "directFocusToBotInput": false,
     "showDialogStateIcon": false,
-    "backButton": false,
+    "backButton": true,
     "messageMenu": true,
     "hideButtonMessageBubble": false,
     "saveHistory": false,
-    "enableLiveChat": false
+    "enableLiveChat": true
   },
   "polly": {
     "voiceId": "Salli"
@@ -61,3 +61,4 @@
     "iframeSrcPath": "/index.html#/?lexWebUiEmbed=true"
   }
 }
+ 
