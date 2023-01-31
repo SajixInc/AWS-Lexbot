@@ -691,3 +691,14 @@ Resends the previous message
 
 - This makes it easy to build and run applications and services without having to worry about infrastructure management, and enables you to focus on writing code and adding business value.
 
+### Integrate API's in AWS Lambda Function
+- To integrate APIs in an AWS Lambda function, you can follow these steps:
+
+  * Create a Lambda function in the AWS Management Console.
+  * Select the appropriate runtime (e.g. Node.js, Python, etc.) for your function.
+  * Write the code for your function, including the API integration logic.
+  * Create a REST API using API Gateway, and configure it to trigger your Lambda function.
+  * Deploy the API to a stage and test it by making API requests.
+  * Optionally, you can add authentication and authorization to your API using AWS Cognito or IAM.
+
+- You can also integrate API in AWS Lambda by using the Serverless Framework or AWS CloudFormation. These tools allow you to automate the deployment and management of your API and Lambda function.
