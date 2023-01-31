@@ -682,3 +682,5 @@ Sends a help message to the bot
 - Back Button
 </br>
 Resends the previous message
+
+# API Integration in AWS LEX Bot
