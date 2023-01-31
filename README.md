@@ -683,7 +683,7 @@ Sends a help message to the bot
 </br>
 Resends the previous message
 
-# API Integration in AWS LEX Bot
+# API Integration in AWS LEX Bot by Using Lambda Function
 ### AWS Lambda Function
 - AWS Lambda is a serverless computing service provided by Amazon Web Services (AWS). It allows you to run your code (such as     microservices, background jobs, or event-driven functions) without having to provision or manage servers.
 
@@ -702,3 +702,16 @@ Resends the previous message
   * Optionally, you can add authentication and authorization to your API using AWS Cognito or IAM.
 
 - You can also integrate API in AWS Lambda by using the Serverless Framework or AWS CloudFormation. These tools allow you to automate the deployment and management of your API and Lambda function.
+
+### Connect AWS Lambda Function in AWS Lex Bot
+- To connect an AWS Lambda function to an AWS Lex bot, follow these steps:
+
+  * Create a Lambda function in the AWS Management Console or using the AWS CLI.
+  * Write the code for your function, which should contain the logic for handling the intent requests from the Lex bot.
+  * In the AWS Management Console, navigate to the Lex bot and select the appropriate intent.
+  * In the Intent Editor, go to the "Fulfillment" section.
+  * Choose "AWS Lambda Function" as the fulfillment method and select the Lambda function you created.
+  * Save and build the bot.
+  * Test the integration by using the "Test Bot" feature in the Lex Console.
+
+- Once the integration is set up, the Lex bot will send intent requests to the Lambda function, which will then process the requests and return a response to the bot. The bot will use the response to generate a response to the user.
