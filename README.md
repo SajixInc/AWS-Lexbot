@@ -1,3 +1,4 @@
+<img align="right" width="33%" src="https://vivifyassets.s3.ap-south-1.amazonaws.com/lifeeazy-logo1.png">
 # Sample Amazon Lex Web Interface
 
 # Overview
@@ -715,3 +716,7 @@ Resends the previous message
   * Test the integration by using the "Test Bot" feature in the Lex Console.
 
 - Once the integration is set up, the Lex bot will send intent requests to the Lambda function, which will then process the requests and return a response to the bot. The bot will use the response to generate a response to the user.
+
+<p align="center">
+<img src="https://vivifyassets.s3.ap-south-1.amazonaws.com/cropped-vivify_login.png" margin_left="100"/>
+ </p>
