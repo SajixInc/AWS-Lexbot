@@ -684,3 +684,10 @@ Sends a help message to the bot
 Resends the previous message
 
 # API Integration in AWS LEX Bot
+### AWS Lambda Function
+- AWS Lambda is a serverless computing service provided by Amazon Web Services (AWS). It allows you to run your code (such as     microservices, background jobs, or event-driven functions) without having to provision or manage servers.
+
+- With Lambda, you simply upload your code and set up triggers, such as API Gateway, S3, SNS, or CloudWatch events. The service automatically scales and runs your code in response to incoming requests or events, and you only pay for the compute time you consume.
+
+- This makes it easy to build and run applications and services without having to worry about infrastructure management, and enables you to focus on writing code and adding business value.
+
