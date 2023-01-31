@@ -1,29 +1,29 @@
 {
-  "region": "ap-southeast-1",// Here Give Your Region as per AWS 
+  "region": "ap-southeast-1",
   "cognito": {
-    "poolId": "ap-southeast-1:2192d67c-209f-49c1-af0b-06a558578217", // Here Give Cognito Poolid. its comming from AWS Cognito
-    "aws_cognito_region": "ap-southeast-1",// Here Give Your Region as per AWS Cognito
+    "poolId": "ap-southeast-1:2192d67c-209f-49c1-af0b-06a558578217",
+    "aws_cognito_region": "ap-southeast-1",
     "region": "ap-southeast-1"
   },
   "connect": {
     "contactFlowId" : "",
-    "instanceId" : "POAQBQEIGY",// Here Give AWS Lex Bot instanceid
+    "instanceId" : "POAQBQEIGY",
     "apiGatewayEndpoint" : "",
     "promptForNameMessage": "Before starting a live chat, please tell me your name?",
     "waitingForAgentMessage": "Thanks for waiting. An agent will be with you when available.",
     "waitingForAgentMessageIntervalSeconds": 60
   },
   "lex": {
-    "botName": "VHLexBot1",// Here Give AWS Lex Bot Name
+    "botName": "VHLexBot1",
     "initialText": "You can ask me for help ordering flowers. Just type \"order flowers\" or click on the mic and say it.",
     "initialSpeechInstruction": "Say 'Order Flowers' to get started.",
     "initialUtterance": "POAQBQEIGY",
     "region": "ap-southeast-1",
     "retryOnLexPostTextTimeout": false,
     "retryCountPostTextTimeout": 1,
-    "v2BotId": "QVSX4RTLAW", // Here Give AWS Lex BotId
-    "v2BotAliasId": "TSTALIASID",// Here Give AWS Lex Bot Aliasid
-    "v2BotLocaleId": "en_IN" // Here Give AWS Lex Bot LocaleId
+    "v2BotId": "QVSX4RTLAW",
+    "v2BotAliasId": "TSTALIASID",
+    "v2BotLocaleId": "en_IN"
   },
   "ui": {
     "parentOrigin": "http://localhost:8000",
