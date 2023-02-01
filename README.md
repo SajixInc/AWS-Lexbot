@@ -38,7 +38,7 @@ For more Details of configuration and activation of AWS Lex Bot in your AWS Acco
 
 
 ----------
-# API Integration in AWS LEX Bot by Using Lambda Function
+# API Integration in AWS LEX Bot Using Lambda Function
 ### AWS Lambda Function
 - AWS Lambda is a serverless computing service provided by Amazon Web Services (AWS). It allows you to run your code (such as     microservices, background jobs, or event-driven functions) without having to provision or manage servers.
 
